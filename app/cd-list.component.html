@@ -1,3 +1,13 @@
+<div class="container">
+  <select (change)="onChange($event.target.value)" class="filter">
+      <option value="all" selected="selected">Show all CDs</option>
+      <option value="Indie Rock">Indie Rock</option>
+      <option value="Alternative">Alternative</option>
+      <option value="Emo-Whine">Emo-Whine</option>
+      <option value="PopRocks">PopRocks</option>
+      
+</div>
+
 <cd-display *ngFor="#currentCd of cdList"
   (click) = "cdClicked(currentCd)"
   [class.selected]="currentCd === selectedCd"

@@ -2,3 +2,16 @@
   font-weight: bold;
   font-size: 20px;
 }
+body {
+  background-image: url(http://www.biggrooveradioshow.com/wp-content/uploads/2014/12/23403-vinyl-record-music.png);
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.jumbotron {
+  color: black;
+  text-align: center;
+}
+input {
+  color:black;
+}
